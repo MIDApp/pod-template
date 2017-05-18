@@ -1,10 +1,5 @@
 # ${POD_NAME}
 
-[![CI Status](http://img.shields.io/travis/${USER_NAME}/${REPO_NAME}.svg?style=flat)](https://travis-ci.org/${USER_NAME}/${REPO_NAME})
-[![Version](https://img.shields.io/cocoapods/v/${POD_NAME}.svg?style=flat)](http://cocoapods.org/pods/${POD_NAME})
-[![License](https://img.shields.io/cocoapods/l/${POD_NAME}.svg?style=flat)](http://cocoapods.org/pods/${POD_NAME})
-[![Platform](https://img.shields.io/cocoapods/p/${POD_NAME}.svg?style=flat)](http://cocoapods.org/pods/${POD_NAME})
-
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
@@ -13,9 +8,14 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
-${POD_NAME} is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+${POD_NAME} is available through [MIDA Spec Repository](http://git.mida.local/MIDASpecs.git). 
+To install it, add the following line at the beginning of your Podfile:
 
+```ruby
+source 'http://git.mida.local/MIDASpecs.git'
+```
+
+And the following among the other pods declarations:
 ```ruby
 pod "${POD_NAME}"
 ```
@@ -26,4 +26,4 @@ ${USER_NAME}, ${USER_EMAIL}
 
 ## License
 
-${POD_NAME} is available under the MIT license. See the LICENSE file for more info.
+All Rights Reserved. See the LICENSE file for more info.

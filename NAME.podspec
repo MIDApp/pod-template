@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage        = 'https://github.com/${USER_NAME}/${POD_NAME}'
+  s.homepage        = 'http://www.midapp.it'
   s.license         = { :type => "All rights reserved", :file => "LICENSE" }
   s.author          = { '${USER_NAME}' => '${USER_EMAIL}' }
   s.source          = { :git => 'http://git.mida.local/${POD_NAME}.git', :tag => s.version.to_s }
